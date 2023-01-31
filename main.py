@@ -34,7 +34,7 @@ while True:
     
     monero_price = data['XMR']['EUR']
     
-    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1069319353956323348/hbY_Ouh7lwSymAf9Lk6yE4e2tP-Fuaaq-axphwlgVgDxEsQxMdvdI5KqCpwuJfm0bDFF')
+    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1069319344380719104/4ZxYrJruHifSvIfyHor6dKkp_pFXI7WNBfVvT5s4lXNlwAgyI--GWd7EBEKxDcGa274p')
     embed = discord.Embed(title='Monero Price', description=f'The current price of Monero is {monero_price} EUR', color=242424)
     embed.set_thumbnail(url="attachment://Monero Price Graph.png")
     webhook.add_embed(embed.to_dict())
